@@ -8,6 +8,7 @@ import { ComponentOneComponent } from './component-one/component-one.component';
 import { ComponentTwoComponent } from './component-two/component-two.component';
 import { ComponentAuxComponent } from './component-aux/component-aux.component';
 import {AuxiliaryRoutingModule} from "./app-routing.module";
+import {TestauxModule} from "./testaux/testaux.module";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {AuxiliaryRoutingModule} from "./app-routing.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    AuxiliaryRoutingModule
+    AuxiliaryRoutingModule,
+    TestauxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

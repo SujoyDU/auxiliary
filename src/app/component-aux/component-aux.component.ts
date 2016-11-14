@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentAuxComponent implements OnInit {
 
+  check:boolean = true;
   constructor() { }
 
   ngOnInit() {
   }
 
+  check(){
+    this.check = !this.check;
+  }
 }
